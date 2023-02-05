@@ -1,0 +1,57 @@
+/*
+
+selecteur{
+	proprite:valeur;
+}*/
+
+h1,h2 {
+	color: pink;
+}
+p{
+	color: red;
+}
+/*
+h1 et h2{
+	color: red;
+}
+*/
+/*{
+	color: pink;
+}
+p b{
+	color: blue;
+}
+/*
+*est une balise universelle qui selectione tout */
+/*le first-child il me en couleur le premier ligne de queceque vous voulez*/
+/*et le lat-child et le nth-child cest comme leur nom dit*/
+/*
+les balisee qu'om le met cote a cote ( p h2) et un autre qui se suive pour dire que le p qui est dans le h2 (p + h2)
+*/
+/* pseudo-format*//*nth-child(an+b)*//*first-child*/
+p :first-child{
+	color:blue;
+}
+
+p:nth-child(n){
+	color:green;
+}
+/*p::first-line{
+	color: black
+}
+
+h2::first-letter{
+	color:green;
+}*/
+
+h2[title$="Preparation"]{
+	color:blue;
+}
+/*cette balise permet de selection le h2 que son titre fini par preparatiom et puisqu'il ya un seuldonc il a selection le titre qui fin par preparation*/
+
+p{
+	text-align:left; 
+}
+
+
+

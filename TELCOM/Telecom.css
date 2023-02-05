@@ -1,0 +1,116 @@
+body{
+	background-color:black;
+
+}
+*{
+	color:white;
+	
+}
+
+
+header{
+	background-color: white;
+	height: 20vh;
+	margin: 10px;
+	color: black;
+	font-size: 3em;
+	text-transform: uppercase;
+	/*text-align: center;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+main{
+	background-color: white;
+	height: 60vh;
+	margin: 10px;
+	color: black;
+	display: flex;
+	/*justify-content: space-around;*/
+	/*flex-direction: column;*/
+	/*align-content: space-between;*/
+
+}
+
+main > section{
+color: black;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px;
+
+
+
+}
+
+.s1{
+	background-color: violet;
+	font-size: 2em;
+	text-transform: uppercase;
+	/*flex: 1;*/
+	/*height: 20vh*/
+}
+.s2{
+	background-color: cyan;
+	font-size: 2em;
+	text-transform: uppercase;/*
+	flex: 2;*/
+}
+.s3{
+	background-color: green;
+	font-size: 2em;
+	text-transform: uppercase;
+	/*flex: 1;*/
+}
+
+footer{
+	background-color: white;
+	height: 20vh;
+	margin: 10px;
+	color: black;
+	font-size: 2em;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+/*
+.tete{
+	border:5px solid white;
+}
+.div{
+
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	
+	flex-wrap: nowrap  ;
+}
+.conteneur >  div{
+	border: 1px solid black;
+	height: 20vh;
+	width:300px;
+}
+
+.n1{
+	background-color: yellow;
+	flex: 2;
+}
+
+.n2{
+	background-color: green;
+	flex: 1;
+
+}
+
+.n3{
+	background-color: yellow;
+	flex:3;
+}
+
+*/

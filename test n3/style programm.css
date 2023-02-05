@@ -1,0 +1,119 @@
+
+*{
+	transition-property: All;
+	/*pour celectionne tout du tout */
+	transition-duration: 1s;
+}
+
+:root{
+	--color-principale: violet ;
+	--taille-pargr:1.2em;
+}
+
+
+
+h1{
+	font-family: courier new
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url('img/bg.jpg');
+	/*background-image: ;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+	color: white;
+	/*opacity: 0.4px*/
+
+}
+
+p{
+	font-size: var(--taille-pargr)
+}
+.first{
+	/*border-width: : 20px ;*/
+	border-style: solid;
+	border-color: pink
+	border-radius: 50px 50px 50px 50px;
+	box-shadow: black
+}
+h1{
+	font-size: 3em;
+	margin-top: 350px
+}
+h1,.first,.one,h2 {
+	text-align: center 
+}
+
+.formation{
+	margin-top: 300px;
+}
+strong{
+	color: pink;
+
+}
+h2,.two{
+	position :bottom
+}
+.first{
+	float: center
+}
+
+a{
+	text-decoration: none;
+	background-color: var(--color-principale);
+	color:  white;
+	padding: 20px;
+	border-radius: 20px;
+	text-align: center;
+
+	line-height: 200px;
+	/*transition-property: background-color,color;
+	transition-duration: 1s;*/
+}
+
+a:hover{
+	background-color: white ;
+	color:var(--color-principale)  ;
+}
+h2{
+	color: var(--color-principale);
+	font-size: 2.5em;
+	font-family: impact;
+
+}
+
+/*p{
+	/*background-color: red;*/
+
+
+.three{
+	text-align: center;
+}
+
+
+.bloc{
+	background-image: url('img/img1.jpg');
+	height: 500px;
+	/*color: black;*/
+}
+
+ul >li{
+	color: black;
+	list-style: square;
+	/*transition-property: border-left,color,list-style;
+	transition-duration: 1s
+	/*tu peut metre all pour le transition*/
+}
+
+ul >li:hover{
+	border-left: 10px solid var(--color-principale);
+	color: var(--color-principale);
+	list-style: none;
+
+}
+
+/*faire un portfolio travail a maison  tu doit le realise cest des informations de toi competence,connecance,..
+ */
+ /*colorlib doit voire
+ media queries il permet de modifier par rapport a lecran de tele, teleph,..
+et faire une simple page pour ton electro comme le arrey quand na fait.....*/ 

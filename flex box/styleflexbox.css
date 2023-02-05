@@ -1,0 +1,42 @@
+.contenu{
+	border: 1px solid black;
+	height: 100vh;
+	/*width: 50vw;*/
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	/*flexdirection: */
+	flex-wrap: nowrap  ;
+}
+
+
+
+.contenu >  div{
+	border: 1px solid black;
+	height: 20vh;
+	/*width:300px;*/
+}
+
+.n1{
+	background-color: red;
+	flex: 2;
+}
+
+.n2{
+	background-color: brown;
+	flex: 1;
+
+}
+
+.n3{
+	background-color: pink;
+	flex:3;
+}
+/*le site de djibouti telecom a faire*/
+/*diplay:inline;display:block;display:none;
+cette balise permet de modifier le contenu*/
+
+.paragraphe{
+	display: inline;
+}

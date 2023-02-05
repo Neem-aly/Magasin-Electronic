@@ -1,0 +1,43 @@
+table{
+	border-collapse: collapse; 
+	/*vertical-align: center;*/
+	/*margin:100vh;*/
+	width: 100%;
+
+}
+
+td,th{
+	border: 2px solid black;
+	text-align: center;
+}
+.head{
+	border-collapse: collapse;
+	background-color: blue;
+	color:white;
+	/*margin:100vh;*/
+
+}
+
+.body1{
+	border-collapse: collapse;
+	background-color: white;
+	color:black;
+}
+
+.body2{
+	border-collapse: collapse;
+	background-color: green;
+	color:black;
+}
+
+.body3{
+	border-collapse: collapse;
+	background-color: white;
+	color:black;
+}
+
+.body4{
+	border-collapse: collapse;
+	background-color: green;
+	color:black;
+}

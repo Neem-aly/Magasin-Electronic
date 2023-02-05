@@ -1,0 +1,31 @@
+.contenu{
+	border: 1px solid black;
+	height: 100vh;
+	/*width: 50vw;*/
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	/*flexdirection: */
+}
+
+
+
+.contenu >  div{
+	border: 1px solid black;
+	height: 20vh;
+	width:20vw;
+}
+
+.n1{
+	background-color: blue;
+}
+
+.n2{
+	background-color: brown;
+}
+
+.n3{
+	background-color: pink;
+}
+*/*/*/

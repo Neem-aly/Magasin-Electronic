@@ -1,0 +1,82 @@
+/*{
+	color:blue;
+}
+/* Index...
+	c'est 6 chiffre 
+	2 2 2
+	comme 
+	00 00 00 c'est le colore noire
+	00= rouge, 00= bleu et le deux dernier 00 no clue
+
+	FF FF FF EST CA CEST LE BLANC*/
+	/*h1{
+		color: ;
+	}
+
+h2{
+	color:rgb(255, 55, 26);
+
+}/*ca cest le couleur pas de pagniq*/
+/*passif cest le couleur classic, exo desimal 00 00 00 ou le FF FF FF ou rgb EST CELUI LA CETS LE DERNIER MAIS IL YA DES APPLI DONC PAS PROPLEM*/
+
+/*CHANGE LE FOND DU PAGE donc tu peuxchoisir le quelle*/
+/*h1{
+	background:  gray*/
+
+
+/*body{
+	/*background-color: : black*/
+	/*background-image: url("../Exam-neima/img/logo.png")}
+	/*background-attachment: fixed ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 200px; /*ou utilise le size comme 1000px*/
+	/*backgroun-size: cover qui est le contraire de contain*/
+	/*opacity: 1/*loposite est comprise entre 0 a 1 le zero cest invisible donc choisis un nobre entre le deux*/
+	/*cette propriet cest just pour faire le texte et le couleur de h1  transparent par exemple  de 0 a 1 */
+	/*{pexels} et {iStock} sont des site pour trouve de photo et de video de haute qualite gratuit 
+	{design note} {picular} {color hunt}
+	IL FAUT QUE TU NOTE QUAND TU VEUX FAIRE UN SITE CEST CONSEIL DUTILISE JUST DEUX COLORE CAR UTILSE PLUSIEUR CEST PAS PROFESIONNEL TU PEUX PRENDRE LE SITE DE TELECOM COMME EXEMPLE
+} {RANDOMA11Y; CEST UN SITE QUI TES MONTRE QUELS SONT LES COULEUR QUI VA ENSEMBLE}
+{COOL BACKGROWNDS UN SITE POUR LE PHOTO OU LE COULEUR DE BACKGROWN}*/
+ h1{
+	border-width: 550px;
+    border-color: black;
+ 	border-style: inside;
+ }
+ 	
+
+ 	h3{border-radius: 50px
+    }
+
+	
+ 	h2{
+ 		text-shadow: 10px 20px 1px black;
+ 		box-shadow: 1px 1px 10px brown;*/
+ 	}
+ 	p{
+ 		border:20px black double
+ 	}
+
+/*le premier nombre cest le size horizental et lautre vertical ou lr contraire et just pas sur 
+et 
+}*/
+p:hover{
+	border-left: 2px solid brown
+}
+a:focus{
+	background-color: green;
+}
+
+a:visited{
+	background-color:red;
+}
+
+
+
+ a:active{
+ 	background-color:blue;
+ }
+ /*p{
+ 	float: right; left
+ }*/
